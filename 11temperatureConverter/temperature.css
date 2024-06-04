@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: linear-gradient(to left bottom, rgb(203, 251, 203), rgb(165, 224, 243));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  color: darkcyan;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 85%;
+  max-width: 450px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
